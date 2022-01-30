@@ -10,6 +10,7 @@
 }
 body{
     font-family: 'Poppins';
+    overflow-x: hidden !important;
 }
 .rounded-4{
     border-radius: 1rem;
@@ -37,22 +38,13 @@ body{
 .fs-big{
     font-size: 4rem !important;
 }
-.topic{
-    overflow: hidden !important;
+
+
+
+.vh-50{
+    height: 450px;
 }
-.vh-150{
-    height: 150vh;
-}
-.rotate{
- 
-    position: absolute;
-    right: 0;
-    top: 0;
-    transform: rotate(400deg);
-    height: 100%;
-    border-bottom-left-radius: 15rem;
-    
-}
+
 @media only screen and (min-width: 800px){
 
     .container-fluid{
@@ -67,5 +59,8 @@ body{
    
     .signinSignup{
         display: flex !important;
+    }
+    .slide{
+        display: block;
     }
 }
