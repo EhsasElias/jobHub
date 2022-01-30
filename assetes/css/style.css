@@ -46,9 +46,9 @@ body{
 .rotate{
  
     position: absolute;
-    right: 0;
+    right: -20%;
     top: 0;
-    transform: rotate(400deg);
+    transform: rotate(390deg);
     height: 100%;
     border-bottom-left-radius: 15rem;
     
