@@ -7,123 +7,151 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assetes/css/bootstrap.min.css">
     <link rel="stylesheet" href="./assetes/css/styleEN.css">
+    <link rel="stylesheet" href="./assetes/css/font-awesome.css">
     <title>jobHub.com</title>
 </head>
 
-<body style="height: 200vh;" class="fs-6">
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="nav">
-        <div class="container-fluid d-flex align-items-center">
-            <a class="navbar-brand " href="#">
-                <h4 class="fw-bold"><span class="text-primary">j</span>obhub</h4>
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse w-100" id="navbarSupportedContent">
-                <ul class="navbar-nav  mb-2 mb-lg-0 m-auto w-50 p-1  justify-content-between">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#">Find Jobs</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="">Companies</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link active dropdown-toggle" href="" id="navbarDropdown" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            Pages
-                        </a>
-                        <ul class="dropdown-menu p-4 rounded-4" aria-labelledby="navbarDropdown">
-                            <li class=""><a class="dropdown-item " href="#">About Us</a></li>
-                            <li class=""><a class="dropdown-item" href="#">Contact Us</a></li>
-                            <li class=""><a class="dropdown-item" href="#">Sign In</a></li>
-                            <li class=""><a class="dropdown-item" href="#">Sign Up</a></li>
-                            <li class=""><a class="dropdown-item" href="#">FAQs</a></li>
-                        </ul>
-                    </li>
+<body class="fs-6">
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="nav">
+            <div class="container-fluid d-flex align-items-center">
+                <a class="navbar-brand " href="#">
+                    <h4 class="fw-bold"><span class="text-primary">j</span>obhub</h4>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse w-100" id="navbarSupportedContent">
+                    <ul class="navbar-nav  mb-2 mb-lg-0 m-auto w-50 p-1  justify-content-between">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="./templates/findJob.html">Find Jobs</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="">Companies</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link active dropdown-toggle" href="" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Pages
+                            </a>
+                            <ul class="dropdown-menu p-4 rounded-4" aria-labelledby="navbarDropdown">
+                                <li class=""><a class="dropdown-item " href="#">About Us</a></li>
+                                <li class=""><a class="dropdown-item" href="#">Contact Us</a></li>
+                                <li class=""><a class="dropdown-item" href="#">Sign In</a></li>
+                                <li class=""><a class="dropdown-item" href="#">Sign Up</a></li>
+                                <li class=""><a class="dropdown-item" href="#">FAQs</a></li>
+                            </ul>
+                        </li>
 
-                </ul>
-                <form class="d-flex signinSignup">
-                    <button class="btn text-light bg-primary m-2 rounded-pill" type="submit">Post a Job</button>
-                    <button class="btn btn-outline-light text-light m-2 rounded-pill" id="signIn" type="submit">Sign
-                        in</button>
-                </form>
+                    </ul>
+                    <form class="d-flex signinSignup">
+                        <button class="btn text-light bg-primary m-2 rounded-pill" type="submit">Post a Job</button>
+                        <button class="btn border-primary text-primary m-2 rounded-pill" id="signIn" type="submit">Sign
+                            in</button>
+                    </form>
+                </div>
             </div>
-        </div>
-    </nav>
-
+        </nav>
+    </header>
     <!-- First Section (Slider + Adds) -->
 
-    <section class="topic  align-items-center bg-lightBlue pt-5">
+    <section class=" bg-lightBlue pt-5 bg vh-100 ">
 
-        <section class="d-flex flex-wrap justify-content-center mt-5">
-            
-            <div id="carouselExampleInterval" class="carousel slide w-75" data-bs-ride="carousel">
-                
-                <div class="carousel-inner">
-                   
-                    <div class="carousel-item active" data-bs-interval="10000">
-                        <img src="./assetes/images/b.jpg" class="d-block m-auto  rounded-4 vh-50" alt="..." >
+        <section class="d-flex flex-wrap justify-content-evenly align-items-center mt-5 h-100">
+
+
+
+            <section>
+                <h4 class="fs-big fw-bolder mt-5">
+                    Find the perfect
+                    <span class="text-primary"> job</span> for you
+                </h4>
+                <p></p>
+                <div class="rounded-5 p-3">
+                    <div class="input-group">
+                        <input type="search" class="form-control border-0" placeholder="Job Title Or Keyword"
+                            aria-describedby="suffixId">
+                        <input type="search" class="form-control border-0 border-left-dark me-2" placeholder="Location"
+                            aria-describedby="suffixId">
+                        <span class=" border-0 bg-primary rounded-pill fa fa-search text-light p-3"
+                            id="suffixId"></span>
                     </div>
-                    <div class="carousel-item" data-bs-interval="2000">
-                        <img src="./assetes/images/b.jpg" class="d-block m-auto rounded-4 vh-50" alt="...">
+                </div>
+                <div>
+                    <h5></h5>
+
+                </div>
+
+            </section>
+            <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+
+                <div class="carousel-inner m-auto rounded-4 d-flex" style="width: 20rem;" data-bs-interval="10000">
+
+                    <div class="card carousel-item m-auto rounded-4  active w-100 ">
+                        <img src="./assetes/images/o1.png" class="card-img-top img-fluid" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                        </div>
+
                     </div>
-                    <div class="carousel-item">
-                        <img src="./assetes/images/b.jpg" class="d-block m-auto rounded-4 vh-50" alt="...">
+
+
+                    <div class="card carousel-item m-auto rounded-4 w-100" data-bs-interval="10000">
+                        <img src="./assetes/images/o2.png" class="card-img-top img-fluid" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                        </div>
+
                     </div>
+
+
+                    <div class="card carousel-item m-auto rounded-4 w-100" data-bs-interval="10000">
+                        <img src="./assetes/images/o3.png" class="card-img-top img-fluid" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                        </div>
+
+                    </div>
+
+
+
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
                     data-bs-slide="prev">
                     <span class="carousel-control-prev-icon bg-primary" aria-hidden="true"></span>
-                    
+
                 </button>
                 <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
                     data-bs-slide="next">
                     <span class="carousel-control-next-icon bg-primary" aria-hidden="true"></span>
-                   
+
                 </button>
             </div>
 
-            <section>
-                <h1 class="fs-big fw-bolder">
-                    Find the perfect
-                    <span class="text-primary"> job</span> for you
-                </h1>
-                <p></p>
-                <div class="input-group">
-                    <input type="text" aria-label="First name" class="form-control">
-                    <input type="text" aria-label="Last name" class="form-control">
-                    <span class="input-group-text">First and last name</span>
-
-                </div>
-                <div>
-                    <h5></h5>
-                    <button></button>
-                    <button></button>
-                    <button></button>
-                    <button></button>
-                    <button></button>
-                    <button></button>
-                    <button></button>
-                    <button></button>
-                    <button></button>
-                </div>
-
-            </section>
-
         </section>
 
-       
+
 
     </section>
+
+
+
+
     <footer id="ehsas"></footer>
     <script src="./assetes/js/bootstrap.bundle.min.js"></script>
     <script src="./assetes/js/app.js"></script>
-    
+
 </body>
 
 </html>

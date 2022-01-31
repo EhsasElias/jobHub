@@ -22,18 +22,18 @@ window.addEventListener('scroll' ,()=>{
     if(window.scrollY < 50){
         _bgColor.classList.remove('bg-white');
         _bgColor.classList.remove('shadow-lg');
-        _signIn.classList.add('btn-outline-light');
-        _signIn.classList.add('text-light');
-        _signIn.classList.remove('btn-outline-dark');
+        _signIn.classList.add('border-primary');
+        _signIn.classList.add('text-primary');
+        _signIn.classList.remove('border-dark');
         _signIn.classList.remove('text-dark');
     }
    else if(window.scrollY >= 50){
         _bgColor.classList.add('bg-white');
         _bgColor.classList.add('shadow-lg');
-        _signIn.classList.add('btn-outline-dark');
+        _signIn.classList.add('border-dark');
         _signIn.classList.add('text-dark');
-        _signIn.classList.remove('btn-outline-light');
-        _signIn.classList.remove('text-light');
+        _signIn.classList.remove('border-primary');
+        _signIn.classList.remove('text-primary');
     }
     
      
