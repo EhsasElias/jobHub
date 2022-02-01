@@ -60,19 +60,103 @@
     </header>
     <!-- First Section (Slider + Adds) -->
 
-    <section class=" bg-lightBlue pt-5 bg vh-100 ">
+    <section class=" bg-lightBlue pt-5 ">
 
-        <section class="d-flex flex-wrap justify-content-evenly align-items-center mt-5 h-100">
+        <section class=" mt-5 ">
 
 
 
-            <section>
-                <h4 class="fs-big fw-bolder mt-5">
+            <div id="carouselExampleIndicators" class="carousel slide " data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active bg-primary" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2" class="bg-primary"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3" class="bg-primary"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active col-lg-6">
+                        <div class="card mb-3 mx-auto w-50">
+                            <div class="row g-0">
+                                <div class="">
+                                    <img src="./assetes/images/o1.png" class="img-fluid rounded-start d-flex m-auto "
+                                        width="300" alt="...">
+                                </div>
+                                <div class="">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text">This is a wider card with supporting text below as a
+                                            natural lead-in to additional content. This content is a little bit longer.
+                                        </p>
+                                        <p class="card-text text-center"><small class="text-muted">Last updated 3 mins
+                                                ago</small>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item col-lg-6">
+                        <div class="card mb-3 mx-auto w-50 ">
+                            <div class="row g-0">
+                                <div class="">
+                                    <img src="./assetes/images/o2.png" class="img-fluid rounded-start d-flex m-auto"
+                                        alt="...">
+                                </div>
+                                <div class="">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text">This is a wider card with supporting text below as a
+                                            natural lead-in to additional content. This content is a little bit longer.
+                                        </p>
+                                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item col-lg-6">
+                        <div class="card mb-3 mx-auto w-50 ">
+                            <div class="row g-0">
+                                <div class="">
+                                    <img src="./assetes/images/o3.png" class="img-fluid rounded-start d-flex m-auto"
+                                        alt="...">
+                                </div>
+                                <div class="">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text">This is a wider card with supporting text below as a
+                                            natural lead-in to additional content. This content is a little bit longer.
+                                        </p>
+                                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="fa fa-angle-double-left bg-primary p-4 fs-4" aria-hidden="true"></span>
+
+                </button>
+                <button class="carousel-control-next " type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="fa fa-angle-double-right bg-primary p-4 fs-4" aria-hidden="true"></span>
+
+                </button>
+            </div>
+
+            <section class="w-100 pb-5">
+                <h4 class="fs-big fw-bolder mt-5 col-lg-6 mx-auto mt-4 mb-1">
                     Find the perfect
                     <span class="text-primary"> job</span> for you
                 </h4>
-                <p></p>
-                <div class="rounded-5 p-3">
+                <p class="link-secoundery col-lg-6 m-auto">Search your career opportunity through 12,800 jobs</p>
+                <div class="rounded-5 p-3 col-lg-6 mx-auto my-4">
                     <div class="input-group">
                         <input type="search" class="form-control border-0" placeholder="Job Title Or Keyword"
                             aria-describedby="suffixId">
@@ -83,72 +167,162 @@
                     </div>
                 </div>
                 <div>
-                    <h5></h5>
+                    <h5>
+
+                    </h5>
 
                 </div>
 
             </section>
-            <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
-
-                <div class="carousel-inner m-auto rounded-4 d-flex" style="width: 20rem;" data-bs-interval="10000">
-
-                    <div class="card carousel-item m-auto rounded-4  active w-100 ">
-                        <img src="./assetes/images/o1.png" class="card-img-top img-fluid" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
-                        </div>
-
-                    </div>
-
-
-                    <div class="card carousel-item m-auto rounded-4 w-100" data-bs-interval="10000">
-                        <img src="./assetes/images/o2.png" class="card-img-top img-fluid" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
-                        </div>
-
-                    </div>
-
-
-                    <div class="card carousel-item m-auto rounded-4 w-100" data-bs-interval="10000">
-                        <img src="./assetes/images/o3.png" class="card-img-top img-fluid" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
-                        </div>
-
-                    </div>
 
 
 
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
-                    data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon bg-primary" aria-hidden="true"></span>
-
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
-                    data-bs-slide="next">
-                    <span class="carousel-control-next-icon bg-primary" aria-hidden="true"></span>
-
-                </button>
-            </div>
 
         </section>
-
-
 
     </section>
 
 
+    <section>
+        <div class="w-75 mx-auto my-5">
+            <h1 class="fw-border text-center">Featuered Tenders</h1>
+            <p class="link-secoundery text-center">work in best companies</p>
+            <div class="d-flex cards">
+                <div class="rounded-4 p-4 m-2 m-auto" style="border:1px solid #eee ">
+                    <img src="./assetes/images/o1.png" width="100" height="100" class="rounded-4" alt="">
+                    <h4 class="fw-bold pt-3">UN</h4>
+                    <p class="py-2">Is an American multinational computer software company. Incorporated in Delaware and
+                        headquartered in San Jose, California.</p>
+                    <h5>14 jobs</h5>
+                </div>
+                <div class="rounded-4 p-4 m-2" style="border:1px solid #eee ">
+                    <img src="./assetes/images/o2.png" width="100" height="100" class="rounded-4" alt="">
+                    <h4 class="fw-bold pt-3">UN</h4>
+                    <p class="py-2">Is an American multinational computer software company. Incorporated in Delaware and
+                        headquartered in San Jose, California.</p>
+                    <h5>14 jobs</h5>
+                </div>
+                <div class="rounded-4 p-4 m-2" style="border:1px solid #eee ">
+                    <img src="./assetes/images/o3.png" width="100" height="100" class="rounded-4" alt="">
+                    <h4 class="fw-bold pt-3">UN</h4>
+                    <p class="py-2">Is an American multinational computer software company. Incorporated in Delaware and
+                        headquartered in San Jose, California.</p>
+                    <h5>14 jobs</h5>
+                </div>
+            </div>
+        </div>
+    </section>
 
 
-    <footer id="ehsas"></footer>
+
+    <section>
+        <div class="w-75 mx-auto my-5">
+            <h1 class="fw-border text-center">Featuered Jobs</h1>
+            <p class="link-secoundery text-center">work in best companies</p>
+            <div class="d-flex cards">
+                <div class="rounded-4 p-4 m-2 m-auto" style="border:1px solid #eee ">
+                    <img src="./assetes/images/o1.png" width="100" height="100" class="rounded-4" alt="">
+                    <h4 class="fw-bold pt-3">UN</h4>
+                    <p class="py-2">Is an American multinational computer software company. Incorporated in Delaware and
+                        headquartered in San Jose, California.</p>
+                    <h5>14 jobs</h5>
+                </div>
+                <div class="rounded-4 p-4 m-2" style="border:1px solid #eee ">
+                    <img src="./assetes/images/o2.png" width="100" height="100" class="rounded-4" alt="">
+                    <h4 class="fw-bold pt-3">UN</h4>
+                    <p class="py-2">Is an American multinational computer software company. Incorporated in Delaware and
+                        headquartered in San Jose, California.</p>
+                    <h5>14 jobs</h5>
+                </div>
+                <div class="rounded-4 p-4 m-2" style="border:1px solid #eee ">
+                    <img src="./assetes/images/o3.png" width="100" height="100" class="rounded-4" alt="">
+                    <h4 class="fw-bold pt-3">UN</h4>
+                    <p class="py-2">Is an American multinational computer software company. Incorporated in Delaware and
+                        headquartered in San Jose, California.</p>
+                    <h5>14 jobs</h5>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section>
+        <div class="w-75 mx-auto my-5">
+            <h1 class="fw-border text-center">Our Parteners</h1>
+            <p class="link-secoundery text-center">Always on trust</p>
+            <div class="d-flex justify-content-between">
+               <div>
+                <img src="./assetes/images/o1.png" class="rounded-4 shadow-lg" alt="" width="100" height="100">
+                <p class="fw-bolder text-center">UN</p>
+               </div>
+               <div>
+                <img src="./assetes/images/o2.png" class="rounded-4 shadow-lg" alt="" width="100" height="100">
+                <p class="fw-bolder text-center">UN</p>
+               </div>
+               <div>
+                <img src="./assetes/images/o3.png" class="rounded-4 shadow-lg" alt="" width="100" height="100">
+                <p class="fw-bolder text-center">UN</p>
+               </div>
+                     </div>
+        </div>
+    </section>
+
+    <div class="bg-lightBlue" style="font-size: 1rem !important;">
+        <div class="w-75 p-5 d-flex flex-wrap m-auto justify-content-between">
+            <div class="my-2">
+                <a class="text-dark text-decoration-none d-block" href="#">
+                    <h4 class="fw-bold m-0"><span class="text-primary">j</span>obhub</h4>
+                </a>
+                <div>
+                    <h5 class="fw-bold">Call us</h5>
+                    <h2 class="text-primary">999999999</h2>
+                    <p class="link-secoundery">90 Fifth Avenue, 3rd Floor
+                        Yemen,<br> Sanaa 1980
+                        office@jobHub.com</p>
+                </div>
+            </div>
+
+            <div class="my-2">
+                <h5 class="fw-bold">For Candidates</h5>
+                <p class="link-secoundery">Find Jobs</p>
+                <p class="link-secoundery">Candidate Dashboard</p>
+                <p class="link-secoundery">My Applications</p>
+                <p class="link-secoundery">Favourite Jobs</p>
+                <p class="link-secoundery">My inbox</p>
+            </div>
+            <div class="my-2">
+                <h5 class="fw-bold">For Candidates</h5>
+                <p class="link-secoundery">Find Jobs</p>
+                <p class="link-secoundery">Candidate Dashboard</p>
+                <p class="link-secoundery">My Applications</p>
+                <p class="link-secoundery">Favourite Jobs</p>
+                <p class="link-secoundery">My inbox</p>
+            </div>
+            <div>
+                <h5 class="fw-bold">For Candidates</h5>
+                <p class="link-secoundery">Find Jobs</p>
+                <p class="link-secoundery">Candidate Dashboard</p>
+                <p class="link-secoundery">My Applications</p>
+                <p class="link-secoundery">Favourite Jobs</p>
+                <p class="link-secoundery">My inbox</p>
+            </div>
+        </div>
+    </div>
+
+
+    <footer class="bg-pink-light py-4">
+
+        <div class="w-75 m-auto d-flex justify-content-between flex-wrap">
+            <p class="link-secoundery">&copy; 2021 Jobhub. All Rights Reseved. </p>
+            <div>
+
+                <span class="fa fa-facebook px-2"></span>
+                <span class="fa fa-twitter px-2"></span>
+                <span class="fa fa-github px-2"></span>
+            </div>
+        </div>
+
+    </footer>
     <script src="./assetes/js/bootstrap.bundle.min.js"></script>
     <script src="./assetes/js/app.js"></script>
 

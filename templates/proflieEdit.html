@@ -26,10 +26,10 @@
                 <div class="collapse navbar-collapse w-100 m-5" id="navbarSupportedContent">
 
 
-                    <aside class="w-100 position-sticky">
+                    <aside class="w-100 position-sticky-fixed">
                         <div class="w-100">
 
-                            <a class="navbar-brand " href="#">
+                            <a class="navbar-brand " href="../index.html">
                                 <h4 class="fw-bold"><span class="text-primary">j</span>obhub</h4>
                             </a>
 
@@ -86,6 +86,7 @@
             </div>
 
         </nav>
+
         <section class="w-75 me-auto">
             <form class=" signin  d-flex justify-content-end m-1 align-items-start">
 
@@ -110,40 +111,46 @@
                 <div class="bg-white rounded-4 p-5 mx-2">
                     <h1 class="fw-bolder">Profile</h1>
                     <span class="link-secondary">Welcome to JobHub!</span><br>
-                    <div class="input-group mb-3 mt-4">
+                   <div class="row">
+                    <div class="input-group mb-3 mt-4 col-lg-12">
                         <label class="w-100 my-2" for="">Name</label>
                         <input type="text" class="form-control rounded-pill p-3" placeholder="Add Your Name">
                     
                     </div>
+                   </div>
                     <div class="input-group mb-3 mt-4 d-flex justify-content-between">
-                        <div class="w-50">
-                            <label class=" my-2" for="">Title</label>
-                            <input type="text" class="form-control rounded-pill p-3 " placeholder="Ex.Web Designer">
+                        <div class="row w-100 justify-content-between">
+                            <div class="col-lg-6">
+                                <label class=" my-2" for="">Title</label>
+                                <input type="text" class="form-control rounded-pill p-3 " placeholder="Ex.Web Designer">
+                            
+                            </div>
+                           
+                           <div class="col-lg-6">
+                            <label class=" my-2 " for="">Location</label>
+                            <input type="text" class="form-control rounded-pill p-3  " placeholder="Ex. Sanaa">
                         
+                           </div>
                         </div>
-                       
-                       <div class="w-50">
-                        <label class=" my-2 " for="">Location</label>
-                        <input type="text" class="form-control rounded-pill p-3  " placeholder="Ex. Sanaa">
-                    
-                       </div>
                        <div class="input-group mb-3 mt-4 d-flex justify-content-between">
-                        <div class="w-50">
-                            <label class=" my-2" for="">Email</label>
-                            <input type="text" class="form-control rounded-pill p-3 " placeholder="ehsas.1998000@gmail.com">
+                        <div class="row w-100 justify-content-between">
+                            <div class="col-lg-6">
+                                <label class=" my-2" for="">Email</label>
+                                <input type="text" class="form-control rounded-pill p-3 " placeholder="ehsas.1998000@gmail.com">
+                            
+                            </div>
+                           
+                           <div class="col-lg-6">
+                            <label class=" my-2 " for="">Phone</label>
+                            <input type="text" class="form-control rounded-pill p-3  " placeholder="+967 777 777 777">
                         
+                           </div>
                         </div>
-                       
-                       <div class="w-50">
-                        <label class=" my-2 " for="">Phone</label>
-                        <input type="text" class="form-control rounded-pill p-3  " placeholder="+967 777 777 777">
-                    
-                       </div>
                     </div>
                     
                     <div class="input-group mb-3 mt-4">
                         
-                        <input type="text" class="form-control rounded-4 p-3 py-5 text-center" placeholder="Upload Your Img" style="border:1px dotted #ced4da !important;height: 150px;">
+                        <input type="file" class="form-control rounded-4 p-3 py-5 text-center" placeholder="Upload Your Img" style="border:1px dotted #ced4da !important;height: 150px;">
                     
                     </div>
                     <div class="input-group mb-3 mt-4">
@@ -152,6 +159,10 @@
                     
                     </div>
                 </div>
+                <div class="d-flex">
+                    <a class="btn bg-darkBlue text-light rounded-4 border-0 p-3 px-5 m-auto Download" href="../assetes/files/EhsasCVeng.pdf">Download CV</a>
+                </div>
+                
             </section>
 
         </section>
