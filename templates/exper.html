@@ -37,14 +37,16 @@
                 <a href="./proflieDashboard.html" type="button"
                   class="btn d-flex align-items-center mt-3  rounded-pill py-2 pe-5"><i
                     class="fa fa-home p-2"></i>Dashboard</a>
-                <a href="../templates/proflieEdit.html" type="button" class="btn d-flex align-items-center mt-3 rounded-pill py-2 pe-5"><i
-                    class="fa fa-pencil p-2"></i>Edit Profile</a>
+                <a href="../templates/proflieEdit.html" type="button"
+                  class="btn d-flex align-items-center mt-3 rounded-pill py-2 pe-5"><i class="fa fa-pencil p-2"></i>Edit
+                  Profile</a>
                 <a href="../templates/skills.html" type="button"
                   class="btn d-flex align-items-center mt-3 rounded-pill py-2 pe-5"><i
                     class="fa  fa-cogs p-2"></i>Skills</a>
-                <a href="../templates/exper.html" type="button" class="btn d-flex align-items-center bg-darkBlue text-light mt-3 rounded-pill py-2 pe-5"><i
+                <a href="../templates/exper.html" type="button"
+                  class="btn d-flex align-items-center bg-darkBlue text-light mt-3 rounded-pill py-2 pe-5"><i
                     class="fa  fa-briefcase p-2"></i>Work Experience</a>
-                <a href="" type="button" class="btn d-flex align-items-center mt-3 rounded-pill py-2 pe-5"><i
+                <a href="../templates/edu&trains.html" type="button" class="btn d-flex align-items-center mt-3 rounded-pill py-2 pe-5"><i
                     class="fa fa-book p-2"></i>Edu & Train</a>
                 <a href="" type="button" class="btn d-flex align-items-center mt-3 rounded-pill py-2 pe-5"><i
                     class="fa fa-heart-o p-2"></i>Favorite Jobs</a>
@@ -91,7 +93,7 @@
 
           <ul class="dropdown-menu p-4 rounded-4" aria-labelledby="dropdownMenuLink">
             <li><a class="dropdown-item" href="../templates/proflieDashboard.html">Dashboard</a></li>
-            <li><a class="dropdown-item" href="#">Edit Profile</a></li>
+            <li><a class="dropdown-item" href="../templates/proflieEdit.html">Edit Profile</a></li>
             <li><a class="dropdown-item" href="#">Logout</a></li>
           </ul>
         </div>
@@ -99,142 +101,104 @@
       </form>
       <section class="">
         <div class="bg-white rounded-4 p-5 mx-2">
-          <h1 class="fw-bolder">Dashboard</h1>
+          <h1 class="fw-bolder">Work Experiences</h1>
           <span class="link-secondary">Welcome to JobHub!</span><br>
-          <div class="row justify-content-evenly">
-            <button type="button" class="btn col-md-5 d-flex  rounded-4 align-items-center my-2"
-              style="background-color: #e6f0f9;">
-              <div class="fa  fa-file-text-o  fs-2 bg-white rounded-3 p-3"></div>
-              <div class="mx-auto">
-                <h4 class="fw-bolder">13</h4>
-                <p class="link-secondary">Job application</p>
-              </div>
-            </button>
-            <button type="button" class="btn  col-md-5  d-flex  rounded-4 align-items-center my-2"
-              style="background-color: #dedede;">
-              <div class="fa fa-user   fs-2 bg-white rounded-3 p-3"></div>
 
-              <div class="mx-auto">
-                <h4 class="fw-bolder">14</h4>
-                <p class="link-secondary">Profile visits</p>
-              </div>
-            </button>
-            <button type="button" class="btn  col-md-5  d-flex  rounded-4 align-items-center my-2"
-              style="background-color: #FFF8EC;">
-              <div class="fa fa-envelope-o  fs-2 bg-white rounded-3 p-3"></div>
+          <table class="table table-borderless my-5">
+            <thead>
+              <tr>
+                <th scope="col">
+                  <h4>Experiences</h4>
+                </th>
 
-              <div class="mx-auto">
-                <h4 class="fw-bolder">155</h4>
-                <p class="link-secondary">Unread messages/p>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+
+                <td>App Developer</td>
+
+                <td class="link-secondary">
+                  <i class="fa fa-pencil p-2" data-bs-toggle="modal" href="#exampleModalToggle2"
+                  role="button"></i>
+                  <i class="fa fa-trash-o p-2 text-danger exper" data-bs-toggle="modal" href="#exampleModalToggle"
+                    role="button"></i>
+
+                </td>
+              </tr>
+              <tr>
+
+                <td>Web Designer</td>
+                <td class="link-secondary">
+                  <i class="fa fa-pencil p-2" data-bs-toggle="modal" href="#exampleModalToggle2"
+                  role="button"></i>
+                  <i class="fa fa-trash-o p-2 text-danger exper" data-bs-toggle="modal" href="#exampleModalToggle"
+                    role="button"></i>
+
+                </td>
+              </tr>
+              <tr>
+
+                <td>Translator</td>
+                <td class="link-secondary">
+                  <i class="fa fa-pencil p-2" data-bs-toggle="modal" href="#exampleModalToggle2"
+                  role="button"></i>
+                  <i class="fa fa-trash-o p-2 text-danger exper" data-bs-toggle="modal" href="#exampleModalToggle"
+                    role="button"></i>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
+
+          <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel"
+            tabindex="-1">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                
+                <div class="modal-body m-auto">
+                  Are you Sure Of Deleting This Item
+                </div>
+                <div class="modal-footer m-auto border-top-0">
+                  <button class="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Cancel</button>
+                  <button class="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Delete</button>
+
+                </div>
               </div>
-            </button>
-            <button type="button" class="btn  col-md-5  d-flex  rounded-4 align-items-center my-2"
-              style="background-color: #fff0d9;">
-              <div class="fa  fa-bell-o  fs-2 bg-white rounded-3 p-3"></div>
-              <div class="mx-auto">
-                <h4 class="fw-bolder">103</h4>
-                <p class="link-secondary">Notifications</p>
-              </div>
-            </button>
+            </div>
           </div>
-          <table class="table table-borderless my-5">
-            <thead>
-              <tr>
-                <th scope="col">
-                  <h4>Recent Notifications</h4>
-                </th>
 
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
+          <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel"
+            tabindex="-1">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                
+                <div class="modal-body m-auto">
+                  <input type="text" placeholder="work expr.." class="form-control p-3 px-5 rounded-4">
+                </div>
+                <div class="modal-footer m-auto border-top-0">
+                  <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">Cancel</button>
+                  <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">Edit</button>
 
-                <td><i class="fa fa-user"></i> <span class="text-primary">enaselias</span> viewed your profile.</td>
+                </div>
+              </div>
+            </div>
+          </div>
 
-                <td class="link-secondary">3h ago</td>
-              </tr>
-              <tr>
 
-                <td><i class="fa fa-envelope-o"></i><span class="text-primary"> enaselias</span>sent you a message.</td>
-                <td class="link-secondary">20m ago</td>
-              </tr>
-              <tr>
-
-                <td><i class="fa fa-user"></i><span class="text-primary"> enaselias</span> viewed your profile.</td>
-                <td class="link-secondary">2m ago</td>
-              </tr>
-            </tbody>
-          </table>
-
-          <table class="table table-borderless my-5">
-            <thead>
-              <tr>
-                <th scope="col">
-                  <h4>Recent Messages</h4>
-                </th>
-
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-
-                <td><i class="fa fa-user"></i> <span class="text-primary">enaselias</span> viewed your profile.</td>
-
-                <td class="link-secondary">3h ago</td>
-              </tr>
-              <tr>
-
-                <td><i class="fa fa-envelope-o"></i><span class="text-primary"> enaselias</span>sent you a message.</td>
-                <td class="link-secondary">20m ago</td>
-              </tr>
-              <tr>
-
-                <td><i class="fa fa-user"></i><span class="text-primary"> enaselias</span> viewed your profile.</td>
-                <td class="link-secondary">2m ago</td>
-              </tr>
-            </tbody>
-          </table>
-          <table class="table table-borderless my-5">
-            <thead>
-              <tr>
-                <th scope="col">
-                  <h4>Recent Jobs</h4>
-                </th>
-
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-
-                <td><i class="fa fa-user"></i> <span class="text-primary">enaselias</span>
-                  Human Resources Coordinator</td>
-
-                <td class="link-secondary">3h ago</td>
-              </tr>
-              <tr>
-
-                <td><i class="fa fa-envelope-o"></i><span class="text-primary"> enaselias</span>
-                  Human Resources Coordinator</td>
-                <td class="link-secondary">20m ago</td>
-              </tr>
-              <tr>
-
-                <td><i class="fa fa-user"></i><span class="text-primary"> enaselias</span>
-                  Human Resources Coordinator</td>
-                <td class="link-secondary">2m ago</td>
-              </tr>
-            </tbody>
-          </table>
         </div>
       </section>
 
     </section>
+
 
   </div>
 
 
 
   <script src="../assetes/js/bootstrap.bundle.min.js"></script>
+  <script src="../assetes/js/js.js"></script>
+  <script src="../assetes/js/app.js"></script>
 </body>
 
 </html>
