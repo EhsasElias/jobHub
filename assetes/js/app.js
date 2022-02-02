@@ -42,7 +42,12 @@ $(document).ready(function () {
 $('#categories').on('change', function () {
     $('#com-name').empty();
 
-    if ($("#categories").val() == "com") { $("#com-name").append("<option>IOM</option><option>UN</option>").fadeIn(2000); }
+    if ($("#categories").val() == "com") { 
+        $("#com-name").append("<option>IOM</option><option>UN</option> <option>ADRA</option>").fadeIn(2000);
+    if($("com-name").val() =="IOM"){
+        
+    }
+    }
     else if ($("#categories").val() == "city") { $("#com-name").append("<option>Sanaa</option><option>Taiz</option><option>Hadermoot</option>").fadeIn(2000); }
 
 });

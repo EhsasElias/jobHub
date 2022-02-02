@@ -81,6 +81,9 @@ aside{
 .cards{
     flex-wrap: wrap;
 }
+.text-darkBlue{
+    color: #102845 !important;
+}
 @media only screen and (min-width: 800px){
 
     .container-fluid{
