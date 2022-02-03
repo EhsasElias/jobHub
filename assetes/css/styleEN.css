@@ -4,7 +4,7 @@
     margin: 0;
     box-sizing: border-box;
 }
-
+@import url('../fonts/poppins/poppins-semibold-webfont.ttf');
 .color-blue{
     color: #366bc3;
 }
@@ -77,12 +77,17 @@ aside{
 .position-sticky-fixed{
     position: fixed !important;
     top: 10px;
+    z-index: 2;
 }
 .cards{
-    flex-wrap: wrap;
+    
+    flex-wrap: wrap !important;
 }
 .text-darkBlue{
     color: #102845 !important;
+}
+.navbar-nav{
+    background-color: white !important;
 }
 @media only screen and (min-width: 800px){
 
@@ -104,8 +109,12 @@ aside{
     }
     .position-sticky-fixed{
         position: sticky !important;
+        
     }
     .cards{
-        flex-wrap: nowrap;
+        flex-wrap: nowrap !important;
+    }
+    .navbar-nav{
+        background-color: inherit !important;
     }
 }
