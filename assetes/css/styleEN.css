@@ -11,8 +11,6 @@
 body{
     font-family: 'Poppins' !important;
     overflow-x: hidden !important;
- 
-  
 }
 .rounded-4{
     border-radius: 1rem;
@@ -55,16 +53,11 @@ body{
 .border-left-dark{
     border-left: 1px solid #ced4da !important;
 }
-
 .bg-pink-light{
    background-color: #fff8ec;
 }
 aside{
-    
-    
-    
-    top: 8%;
-    
+top: 8%;  
 }
 #skill{
     border-top-right-radius: 0 !important;
@@ -90,7 +83,6 @@ aside{
     background-color: white !important;
 }
 @media only screen and (min-width: 800px){
-
     .container-fluid{
         width: 85%;
     } 
